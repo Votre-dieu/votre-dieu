@@ -3,6 +3,7 @@
         :class="[
             'vd-button', 
             `button-type-${type}`, 
+            `button-size-${size}`,
             {
                 'vd-disabled': disabled
             }
