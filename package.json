@@ -1,0 +1,39 @@
+{
+  "name": "votre-dieu",
+  "version": "0.1.7",
+  "private": false,
+  "main": "lib/votre-dieu.common.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name votre-dieu --dest lib packages/index.js"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "author": {
+    "name": "CrazyYan"
+  },
+  "keywords": [
+    "vue",
+    "vue2",
+    "vue-ui",
+    "voter-dieu",
+    "voter-dieu",
+    "voter-dieu-component",
+    "vuecomponent"
+  ]
+}

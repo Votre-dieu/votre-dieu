@@ -1,0 +1,60 @@
+
+// 全局变量样式
+@import './const.scss';
+
+// 初始化样式
+ol,ul,li {
+    list-style: none;
+}
+ol,ul,li {
+    padding: 0;
+}
+
+// vd-button
+.vd-button {
+    padding: 8px 14px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    border: unset;
+    min-width: 2em;
+    min-height: 1.5em;
+    &:active {
+        opacity: 0.8;
+    }
+    &.button-type-default {
+        border: 1px solid $vd-border;
+        background-color: $vd-default;
+        color: $vd-font;
+    }
+    &.button-type-primary {
+        color: $vd-default;
+        background-color: $vd-primary;
+    }
+    &.button-type-success {
+        color: $vd-default;
+        background-color: $vd-success;
+    }
+    &.button-type-warning {
+        color: $vd-default;
+        background-color: $vd-warning;
+    }
+    &.button-type-danger {
+        color: $vd-default;
+        background-color: $vd-danger;
+    }
+    &.button-type-info {
+        color: $vd-default;
+        background-color: $vd-info;
+    }
+}
+
+// 禁用样式
+.vd-disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+    &:active {
+        opacity: unset;
+    }
+}
