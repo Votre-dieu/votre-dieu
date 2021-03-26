@@ -1,5 +1,10 @@
 # votre-dieu
 
+## 下载依赖
+```shell
+npm install votre-dieu
+```
+
 ## 引入注册
 ```js
 # 全局注册
