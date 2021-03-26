@@ -13,11 +13,15 @@
     <vd-button  @click="click1"> default </vd-button>
     <vd-button @click="click1" :disabled="true"> disabled </vd-button>
     <br>
-    <vd-button  @click="click1" type="primary" > primary </vd-button>
-    <vd-button  @click="click1" type="success" > success </vd-button>
-    <vd-button  @click="click1" type="info" > info </vd-button>
-    <vd-button  @click="click1" type="warning" > warning </vd-button>
-    <vd-button  @click="click1" type="danger" > danger </vd-button>
+    <vd-button type="primary" > primary </vd-button>
+    <vd-button type="success" > success </vd-button>
+    <vd-button type="info" > info </vd-button>
+    <vd-button type="warning" > warning </vd-button>
+    <vd-button type="danger" > danger </vd-button>
+    <br>
+    <vd-button size="mini"> mini </vd-button>
+    <vd-button size="medium"> medium </vd-button>
+    <vd-button size="large"> large </vd-button>
   </div>
 </template>
 
