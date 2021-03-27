@@ -23,3 +23,7 @@ Vue.use(vdButton)
 ```html
 <vd-button> default </vd-button>
 ```
+
+## 组件
+- [vd-button](./packages/vdButton/README.md)
+- [vd-card](./packages/vdCard/README.md)
