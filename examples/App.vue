@@ -22,6 +22,25 @@
     <vd-button size="mini"> mini </vd-button>
     <vd-button size="medium"> medium </vd-button>
     <vd-button size="large"> large </vd-button>
+    <h1>vd-card</h1>
+    <vd-card style="width:400px;">
+      <div slot="header" class="flex">
+          <span class="f1">安墨对我说</span>
+          <span class="f-s12"> ✅ 收藏</span>
+      </div>
+      <p class="t-i2">当你低着头只是一个劲地努力着，行走着，进行着，忽然抬头，发现自己已经站在曾经想要站着的位置了</p>
+      <p class="t-r f-s12">——丶安墨</p>
+      <p class="t-r f-s12">2021/2/1 22:39</p>
+    </vd-card>
+    <br>
+    <vd-card style="width:400px;" type="primary">
+      <div slot="header">
+         安墨对我说
+      </div>
+      <p class="t-i2">当你低着头只是一个劲地努力着，行走着，进行着，忽然抬头，发现自己已经站在曾经想要站着的位置了</p>
+      <p class="t-r f-s12">——丶安墨</p>
+      <p class="t-r f-s12">2021/2/1 22:39</p>
+    </vd-card>
   </div>
 </template>
 
@@ -40,6 +59,26 @@ export default {
 
 <style lang="scss">
 @import '../common/style/const.scss';
+button {
+  margin: 6px !important;
+}
+.flex {
+  display: flex;
+}
+.f1{
+    flex:1; 
+    align-items: center;
+    justify-content: center;
+}
+.t-r{
+  text-align: right;
+}
+.f-s12{
+  font-size: 12px;
+}
+.t-i2{
+  text-indent: 2em;
+}
 #app {
   padding: 20px;
 }

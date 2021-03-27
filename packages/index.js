@@ -1,14 +1,15 @@
 import vdButton from './vdButton'
+import vdCard from './vdCard'
 import '../common/style/index.scss'
 
 const components = [ 
-    vdButton
+    vdButton,
+    vdCard
 ]
 
 const VotreDieu = {}
 // 全局注册
 export default VotreDieu.install = function( Vue, opt = {} ) {
-    console.log(opt)
     components.forEach(item => {
         register( Vue, item )
     })
@@ -25,5 +26,6 @@ function register ( _v, com ) {
 }
 // 按需暴露
 export {
-    vdButton
+    vdButton,
+    vdCard
 }
