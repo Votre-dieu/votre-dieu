@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>配色表</h1>
+    <h2>配色表</h2>
     <ul>
       <li class="vd-default">#FFFFFF</li>
       <li class="vd-success">#9EDE73</li>
@@ -9,20 +9,20 @@
       <li class="vd-info">#536162</li>
       <li class="vd-primary">#214252</li>
     </ul>
-    <h1>vd-button</h1>
+    <h2>vd-button</h2>
     <vd-button  @click="click1"> default </vd-button>
     <vd-button @click="click1" :disabled="true"> disabled </vd-button>
-    <br>
+    <h3>type</h3>
     <vd-button type="primary" > primary </vd-button>
     <vd-button type="success" > success </vd-button>
     <vd-button type="info" > info </vd-button>
     <vd-button type="warning" > warning </vd-button>
     <vd-button type="danger" > danger </vd-button>
-    <br>
+    <h3>size</h3>
     <vd-button size="mini"> mini </vd-button>
     <vd-button size="medium"> medium </vd-button>
     <vd-button size="large"> large </vd-button>
-    <h1>vd-card</h1>
+    <h2>vd-card</h2>
     <vd-card style="width:400px;">
       <div slot="header" class="flex">
           <span class="f1">安墨对我说</span>
