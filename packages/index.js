@@ -1,10 +1,12 @@
 import vdButton from './vdButton'
 import vdCard from './vdCard'
+import vdInput from './vdInput'
 import '../common/style/index.scss'
 
 const components = [ 
     vdButton,
-    vdCard
+    vdCard,
+    vdInput
 ]
 
 const VotreDieu = {}
@@ -27,5 +29,6 @@ function register ( _v, com ) {
 // 按需暴露
 export {
     vdButton,
-    vdCard
+    vdCard,
+    vdInput
 }
