@@ -1,17 +1,26 @@
-// .vuepress/config.js
 module.exports = {
     plugins: [['vuepress-plugin-code-copy', true]],
+    base:"/votre-dieu/",
+    head: [
+        ['link', { rel: 'icon', href: 'https://lovemysoul.vip/votre-dieu/logo.png'} ]
+    ],
+    port: 3000,
+    markdown: {
+        lineNumbers: true
+    },
+    title: "votre-dieu",
     themeConfig: {
+        lastUpdated:"上次更新",
         repo: 'votre-dieu/votre-dieu',
         repoLabel: '查看源码',
-        logo: 'https://i.loli.net/2021/03/29/cswYpBOdMNZnmCL.png',
+        logo: 'https://lovemysoul.vip/votre-dieu/logo.png',
         smoothScroll: true,
         docsRepo: 'votre-dieu/votre-dieu',
         docsDir: 'docs',
         docsBranch: 'main',
+        description: "vueui,组件库，votre-dieu，vue2components",
         editLinks: true,
-        editLinkText: '帮助我们改善此页面！',
-        lastUpdated: 'Last Updated',
+        editLinkText: '有错误？帮助我们去修改',
         sidebar: [
             {
                 title: '快速上手',   
