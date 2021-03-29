@@ -57,6 +57,20 @@
     <h3>双向绑定</h3>
     <vd-input type="text" :vModel.sync="value" />
     <p>value = {{ value }}</p>
+    <vd-progress :color="colorsData" :percent="data1" width="300px" />
+    <br>
+
+    <vd-progress color="red" :percent="data1" width="300px" />
+    <br>
+    <vd-progress :percent="10" width="300px" />
+    <br>
+
+    <vd-progress :color="customColorMethod" :percent="data1" width="300px" />
+    <br>
+    <vd-button @click="data1 += 10"> + </vd-button>
+    <vd-button @click="data1 -= 10"> - </vd-button>
+    <br>
+    <vd-progress :exhibition=" percent => percent >= 100 ? '满' : `${percent}%`" :percent="data1" width="300px" />
   </div>
 </template>
 
@@ -66,12 +80,31 @@ export default {
   data() {
     return {
       hhhhhh: 1,
+      data1:10,
       val1: "333",
       value1: "test",
       value: "",
+      colorsData: [
+        {color:"#be0000", percent: 20},
+        {color:"#e48900", percent: 40},
+        {color:"#9ede73", percent: 60},
+        {color:"#bule", percent: 90},
+      ]
     };
   },
   methods: {
+    changeVal(){
+      this.data1 += 10;
+    },
+    customColorMethod(percentage) {
+        if (percentage < 30) {
+          return 'blue';
+        } else if (percentage < 70) {
+          return '#e6a23c';
+        } else {
+          return '#67c23a';
+        }
+      },
     click1(e) {
       console.log(this.val1);
     },

@@ -138,3 +138,32 @@ ol,ul,li {
         border-color: $vd-danger;
     }
 }
+
+// vd-progress
+.vd-progress-container {
+    width: auto;
+    display: flex;
+    align-items: center;
+    .vd-progress {
+            width: 100%;
+            background-color: #ebeef5;
+            min-height: 6px;
+            border-radius: 50px;
+            display: inline-block;
+        .vd-progress-percent {
+            height: 100%;
+            transition: all 0.3s;
+            height: 6px;
+            border-radius: 50px;
+        }
+    }
+    .progress-title {
+        font-size: 14px;
+        padding: 0 6px;
+    }
+    .percent-font {
+        font-size: 14px;
+        padding: 0 4px;
+        color: #606266;
+    }
+}
