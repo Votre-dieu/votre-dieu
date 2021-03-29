@@ -3,6 +3,10 @@
 ## 下载依赖
 ```shell
 npm install votre-dieu
+// or
+yarn add votre-dieu
+or
+cnpm install votre-dieu
 ```
 
 ## 引入注册
