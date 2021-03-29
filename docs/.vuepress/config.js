@@ -41,17 +41,21 @@ module.exports = {
                 title: '组件',
                 children: [ 
                     {
-                        title:"Button",
+                        title:"按钮 Button",
                         path:'/components/vd-button'
                     },
                     {
-                        title:"Input",
+                        title:"输入框 Input",
                         path:'/components/vd-input'
                     },
                     {
-                        title:"Card",
+                        title:"卡片 Card",
                         path:'/components/vd-card'
-                    }
+                    },
+                    {
+                        title:"进度条 Progress",
+                        path:'/components/vd-progress'
+                    },
                 ],
             }
         ]

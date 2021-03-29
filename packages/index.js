@@ -1,12 +1,14 @@
 import vdButton from './vdButton'
 import vdCard from './vdCard'
 import vdInput from './vdInput'
+import vdProgress from './vdProgress'
 import '../common/style/index.scss'
 
 const components = [ 
     vdButton,
     vdCard,
-    vdInput
+    vdInput,
+    vdProgress
 ]
 
 const VotreDieu = {}
@@ -30,5 +32,6 @@ function register ( _v, com ) {
 export {
     vdButton,
     vdCard,
-    vdInput
+    vdInput,
+    vdProgress
 }
