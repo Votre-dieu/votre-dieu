@@ -11,14 +11,18 @@ const components = [
     vdProgress
 ]
 
-const VotreDieu = {}
 // 全局注册
-export default VotreDieu.install = function( Vue, opt = {} ) {
+const install = function( Vue, opt = {} ) {
     components.forEach(item => {
         register( Vue, item )
     })
 }
 
+export default install
+
+if (typeof window !== 'undefined' && window.Vue) {
+    install(window.Vue);
+}
 /**
  * 注册组件
  * @param { vue } _v
@@ -30,6 +34,7 @@ function register ( _v, com ) {
 }
 // 按需暴露
 export {
+    install,
     vdButton,
     vdCard,
     vdInput,
