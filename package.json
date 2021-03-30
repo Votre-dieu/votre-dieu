@@ -22,8 +22,7 @@
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11",
-    "vuepress": "^1.8.2",
-    "vuepress-plugin-demo-container": "^0.2.0"
+    "vuepress": "^1.8.2"
   },
   "browserslist": [
     "> 1%",

@@ -15,40 +15,39 @@ Vue.use(vdButton)
 <vd-button> default </vd-button>
 ```
 :::
+
 ## disabled
 <br />
-<vd-button :disabled="true"> disabled </vd-button>
 
+:::demo
 ```html
 <vd-button :disabled="true"> disabled </vd-button>
 ```
+:::
 
 
 ## type
 <br />
-<vd-button type="primary"> primary </vd-button>
-<vd-button type="success"> success </vd-button>
-<vd-button type="info"> info </vd-button>
-<vd-button type="danger"> danger </vd-button>
 
+:::demo
 ```html
 <vd-button type="primary"> primary </vd-button>
 <vd-button type="success"> success </vd-button>
 <vd-button type="info"> info </vd-button>
 <vd-button type="danger"> danger </vd-button>
 ```
+:::
 
 ## size
 <br />
-<vd-button size="mini"> mini </vd-button>
-<vd-button size="medium"> medium </vd-button>
-<vd-button size="large"> large </vd-button>
 
+:::demo
 ```html
 <vd-button size="mini"> mini </vd-button>
 <vd-button size="medium"> medium </vd-button>
 <vd-button size="large"> large </vd-button>
 ```
+:::
 
 ## 参数
 
