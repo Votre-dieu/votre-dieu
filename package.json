@@ -1,6 +1,6 @@
 {
   "name": "votre-dieu",
-  "version": "0.1.7",
+  "version": "0.2.4",
   "private": false,
   "main": "lib/votre-dieu.common.js",
   "scripts": {
@@ -21,7 +21,8 @@
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11",
-    "vuepress": "^1.8.2"
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-demo-container": "^0.2.0"
   },
   "browserslist": [
     "> 1%",

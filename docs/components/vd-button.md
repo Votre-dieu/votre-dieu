@@ -9,11 +9,12 @@ Vue.use(vdButton)
 ## 简单使用
 
 <br />
-<vd-button> default </vd-button> 
 
+:::demo
 ```html
 <vd-button> default </vd-button>
 ```
+:::
 ## disabled
 <br />
 <vd-button :disabled="true"> disabled </vd-button>
