@@ -1,12 +1,23 @@
 module.exports = {
-    plugins: [['vuepress-plugin-code-copy', true]],
-    base:"/votre-dieu/",
+    plugins: ['demo-container'],
+    // base:"/votre-dieu/",
     head: [
         ['link', { rel: 'icon', href: 'https://lovemysoul.vip/votre-dieu/logo.png'} ]
     ],
     port: 3000,
     markdown: {
-        lineNumbers: true
+        lineNumbers: false
+    },
+    locales:{
+        '/': {
+            lang: "zh-CN",
+            "demo-block": {
+                "hide-text": "隐藏代码",
+                "show-text": "显示代码",
+                "copy-text": "复制代码",
+                "copy-success": "复制成功"
+            }
+        }
     },
     title: "votre-dieu",
     themeConfig: {
