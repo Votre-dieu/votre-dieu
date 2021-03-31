@@ -67,6 +67,10 @@ module.exports = {
                         title:"进度条 Progress",
                         path:'/components/vd-progress'
                     },
+                    {
+                        title:"链接 Link",
+                        path:'/components/vd-link'
+                    },
                 ],
             }
         ]

@@ -3,6 +3,7 @@
   "version": "0.2.4",
   "private": false,
   "main": "lib/votre-dieu.common.js",
+  "description": "A Component Library for Vue.js.",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -31,6 +32,15 @@
   "author": {
     "name": "CrazyYan"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Votre-dieu/votre-dieu.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Votre-dieu/votre-dieu/issues"
+  },
+  "homepage": "https://github.com/CrazyMrYan/votre-dieu",
   "keywords": [
     "vue",
     "vue2",

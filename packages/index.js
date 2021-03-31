@@ -2,13 +2,15 @@ import vdButton from './vdButton'
 import vdCard from './vdCard'
 import vdInput from './vdInput'
 import vdProgress from './vdProgress'
+import vdLink from './vdLink'
 import '../common/style/index.scss'
 
 const components = [ 
     vdButton,
     vdCard,
     vdInput,
-    vdProgress
+    vdProgress,
+    vdLink
 ]
 
 // 全局注册
@@ -38,5 +40,6 @@ export {
     vdButton,
     vdCard,
     vdInput,
-    vdProgress
+    vdProgress,
+    vdLink
 }
