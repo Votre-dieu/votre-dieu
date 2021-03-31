@@ -71,6 +71,7 @@
     <vd-button @click="data1 -= 10"> - </vd-button>
     <br>
     <vd-progress :exhibition=" percent => percent >= 100 ? '满' : `${percent}%`" :percent="data1" width="300px" />
+    <vd-link type="primary" :underline="false" target="_blank" href="https://baidu.com">链接1</vd-link>
   </div>
 </template>
 
