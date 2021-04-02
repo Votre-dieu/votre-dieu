@@ -19,6 +19,10 @@ cnpm install votre-dieu
 <script src="//unpkg.com/votre-dieu/lib/index/index.js"></script>
 <!-- 引入样式 -->
 <link rel="stylesheet" href="/unpkg.com/votre-dieu/lib/index/index.css">
+
+#or
+<script src="//cdn.jsdelivr.net/npm/votre-dieu/lib/index/index.js"></script>
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/votre-dieu/lib/index/index.css">
 ```
 
 :::tip 提示
