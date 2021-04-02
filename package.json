@@ -1,8 +1,8 @@
 {
   "name": "votre-dieu",
-  "version": "0.2.4",
+  "version": "0.3.1",
   "private": false,
-  "main": "lib/votre-dieu.common.js",
+  "main": "lib/index",
   "description": "A Component Library for Vue.js.",
   "scripts": {
     "serve": "vue-cli-service serve",

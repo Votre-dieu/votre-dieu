@@ -176,4 +176,11 @@ ul > li {
 .vd-primary {
   background-color: $vd-primary;
 }
+// 初始化样式
+ol,ul,li {
+    list-style: none;
+}
+ol,ul,li {
+    padding: 0;
+}
 </style>
