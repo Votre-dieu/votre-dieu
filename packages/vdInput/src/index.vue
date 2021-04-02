@@ -97,3 +97,47 @@ export default {
     },
 };
 </script>
+
+<style lang="scss" scoped>
+@import "../../../common/const.scss";
+// vd-input
+.vd-input {
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    .vd-input__inner{
+        border: unset;
+        border: 1px solid $vd-card-border;
+        border-radius: 4px;
+        outline: unset;
+        -webkit-appearance: none;
+        padding: 8px;
+        font-size: 14px;
+        color: $vd-primary;
+        &:focus{
+            border-color: $vd-primary;
+        }
+    }
+    .vd-input-slot {
+        position: absolute;
+        height: 100%;
+        right: 5px;
+        padding: 0 2px;
+        top: 0;
+        text-align: center;
+        display: inline-flex;
+        align-items: center;
+        color: $vd-light;
+        box-sizing: border-box;
+        transition: all .3s;
+        pointer-events: none;
+        .vd-input-slot__content {
+            padding: 3px;
+            background: $vd-default;
+        }
+    }
+    &.vd-border-err {
+        border-color: $vd-danger;
+    }
+}
+</style>

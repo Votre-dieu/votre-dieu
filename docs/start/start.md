@@ -16,9 +16,9 @@ cnpm install votre-dieu
 
 ```html
 <!-- 引入组件库 -->
-<script src="//unpkg.com/votre-dieu/lib/votre-dieu.umd.min.js"></script>
+<script src="//unpkg.com/votre-dieu/lib/index/index.js"></script>
 <!-- 引入样式 -->
-<link rel="stylesheet" href="//unpkg.com/votre-dieu/lib/votre-dieu.css">
+<link rel="stylesheet" href="/unpkg.com/votre-dieu/lib/index/index.css">
 ```
 
 :::tip 提示
