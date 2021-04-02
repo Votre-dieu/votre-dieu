@@ -2,7 +2,6 @@
 
 ```js
 import { vdInput } from 'votre-dieu'
-import 'votre-dieu/lib/votre-dieu.css'
 Vue.use(vdInput)
 ```
 

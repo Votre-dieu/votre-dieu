@@ -1,8 +1,8 @@
 ## 全局引入
 ```js
 // 全局注册
-import VotreDieu from 'votre-dieu'
-import 'votre-dieu/lib/index/index.css'
+import VotreDieu from "votre-dieu";
+import "votre-dieu/lib/index/index.css";
 Vue.use(VotreDieu)
 ```
 
@@ -31,8 +31,21 @@ module.exports = {
 ```shell
 yarn add babel-plugin-import
 ```
+
 然后你就可以在 main.js 中这样去使用了
+
 ```js
 import { vdButton, vdCard } from 'votre-dieu'
-Vue.use(vdButton, vdCard)
+Vue.use( vdButton )
+Vue.use( vdCard )
+```
+
+或者你可以在 .vue 页面/组件中使用components来组册
+```html
+<script>
+    import { vdButton, vdCard } from 'votre-dieu'
+    export default {
+        components:{ vdButton, vdCard }
+    }
+</script>
 ```
