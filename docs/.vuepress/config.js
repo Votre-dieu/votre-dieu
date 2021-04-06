@@ -50,6 +50,7 @@ module.exports = {
             },
             {
                 title: '组件',
+                sidebarDepth: 2,
                 children: [ 
                     {
                         title:"按钮 Button",
@@ -71,7 +72,29 @@ module.exports = {
                         title:"链接 Link",
                         path:'/components/vd-link'
                     },
+                    {
+                        title:"弹窗 Dialog",
+                        path:'/components/vd-dialog'
+                    },
+                    {
+                        title:"图标 Icon",
+                        path:'/components/vd-icon'
+                    },
                 ],
+            },
+            {
+                title: '主题',   
+                sidebarDepth: 0,
+                children: [
+                    {
+                        title:"主题色",
+                        path:'/theme/theme'
+                    },
+                    {
+                        title:"定制主题",
+                        path:'/theme/custom'
+                    }
+                ]
             }
         ]
     }

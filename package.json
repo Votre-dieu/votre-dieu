@@ -1,6 +1,6 @@
 {
   "name": "votre-dieu",
-  "version": "0.3.1",
+  "version": "0.3.4",
   "private": false,
   "main": "lib/index",
   "description": "A Component Library for Vue.js.",
