@@ -41,7 +41,7 @@
     }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import "../../../common/const.scss";
 // vd-button
 .vd-button {

@@ -84,3 +84,9 @@ Vue.use(vdCard)
 | --------- | ---- | --------------- | ------ | ------- | -------------- |
 | type      | 否   | primary/default | String | default | header颜色     |
 | bodyStyle | 否   |                 | Object |         | body自定义样式 |
+
+<style>
+.demo-content{
+    overflow: auto;
+}
+</style>

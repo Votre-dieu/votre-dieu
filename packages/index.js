@@ -3,18 +3,23 @@ import vdCard from './vdCard'
 import vdInput from './vdInput'
 import vdProgress from './vdProgress'
 import vdLink from './vdLink'
+import vdDialog from './vdDialog'
+import vdIcon from './vdIcon'
 
 const components = [ 
     vdButton,
     vdCard,
     vdInput,
     vdProgress,
-    vdLink
+    vdLink,
+    vdDialog,
+    vdIcon
 ]
 
 // 全局注册
 const install = function( Vue, opt = {} ) {
     components.forEach(item => {
+        console.log(item.name)
         register( Vue, item )
     })
 }
@@ -40,5 +45,7 @@ export {
     vdCard,
     vdInput,
     vdProgress,
-    vdLink
+    vdLink,
+    vdDialog,
+    vdIcon
 }
