@@ -10,8 +10,7 @@ cnpm install votre-dieu
 ```
 
 ## 文档
-详细文档请访问 [VOTRE-DIEU API 📃](https://lovemysoul.vip/votre-dieu/)
-
+详细文档请访问 [国内API地址](https://lovemysoul.vip/votre-dieu/) or [GitHub Pages](https://votre-dieu.github.io/votre-dieu)
 ## 引入注册
 ```js
 # 全局注册
@@ -27,5 +26,7 @@ Vue.use(VotreDieu)
 
 ## 初衷
 1.自己学习构建一个 vuejs 组件库
+
 2.找一群志同道合的朋友们
+
 3.提升自己的处理问题的能力
