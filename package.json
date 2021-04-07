@@ -1,53 +1,53 @@
 {
-  "name": "votre-dieu",
-  "version": "0.3.5",
-  "private": false,
-  "main": "lib/index",
-  "description": "A Component Library for Vue.js.",
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lib": "vue-cli-service build --target lib --name votre-dieu --dest lib packages/index.js",
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
-  },
-  "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^2.6.11",
-    "vuepress-plugin-code-copy": "^1.0.6"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "node-sass": "^4.12.0",
-    "sass-loader": "^8.0.2",
-    "vue-template-compiler": "^2.6.11",
-    "vuepress": "^1.8.2"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ],
-  "author": {
-    "name": "CrazyYan"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:Votre-dieu/votre-dieu.git"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Votre-dieu/votre-dieu/issues"
-  },
-  "homepage": "https://github.com/CrazyMrYan/votre-dieu",
-  "keywords": [
-    "vue",
-    "vue2",
-    "vue-ui",
-    "voter-dieu",
-    "voter-dieu",
-    "voter-dieu-component",
-    "vuecomponent"
-  ]
+    "name": "votre-dieu",
+    "version": "0.3.5",
+    "private": false,
+    "main": "lib/index",
+    "description": "A Component Library for Vue.js.",
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lib": "vue-cli-service build --target lib --name votre-dieu --dest lib packages/index.js",
+        "docs:dev": "vuepress dev docs",
+        "docs:build": "vuepress build docs"
+    },
+    "dependencies": {
+        "core-js": "^3.6.5",
+        "vue": "^2.6.11",
+        "vuepress-plugin-code-copy": "^1.0.6"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~4.5.0",
+        "@vue/cli-service": "~4.5.0",
+        "node-sass": "^4.12.0",
+        "sass-loader": "^8.0.2",
+        "vue-template-compiler": "^2.6.11",
+        "vuepress": "^1.8.2"
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead"
+    ],
+    "author": {
+        "name": "CrazyYan"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:Votre-dieu/votre-dieu.git"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Votre-dieu/votre-dieu/issues"
+    },
+    "homepage": "https://github.com/CrazyMrYan/votre-dieu",
+    "keywords": [
+        "vue",
+        "vue2",
+        "vue-ui",
+        "voter-dieu",
+        "voter-dieu",
+        "voter-dieu-component",
+        "vuecomponent"
+    ]
 }
