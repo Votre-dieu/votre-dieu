@@ -1,6 +1,6 @@
 module.exports = {
     plugins: ['demo-container'],
-    // base:"/votre-dieu/",
+    base:"/votre-dieu/",
     head: [
         ['link', { rel: 'icon', href: 'https://lovemysoul.vip/votre-dieu/logo.png'} ]
     ],
@@ -80,6 +80,10 @@ module.exports = {
                         title:"图标 Icon",
                         path:'/components/vd-icon'
                     },
+                    {
+                        title:"树 Tree",
+                        path:'/components/vd-tree'
+                    }
                 ],
             },
             {
