@@ -5,6 +5,7 @@ import vdProgress from './vdProgress'
 import vdLink from './vdLink'
 import vdDialog from './vdDialog'
 import vdIcon from './vdIcon'
+import vdTree from './vdTree'
 
 const components = [ 
     vdButton,
@@ -13,13 +14,13 @@ const components = [
     vdProgress,
     vdLink,
     vdDialog,
-    vdIcon
+    vdIcon,
+    vdTree
 ]
 
 // 全局注册
 const install = function( Vue, opt = {} ) {
     components.forEach(item => {
-        console.log(item.name)
         register( Vue, item )
     })
 }
@@ -47,5 +48,6 @@ export {
     vdProgress,
     vdLink,
     vdDialog,
-    vdIcon
+    vdIcon,
+    vdTree
 }

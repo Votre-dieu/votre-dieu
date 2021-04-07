@@ -8,10 +8,3 @@
 ---
 
 <p style="text-align: center;">MIT Licensed | Copyright © 2021 CrazyYan</p>
-
-<!-- <style>
-    /*不知道怎么出现一个undefined*/
-    /* .theme-default-content{
-        display: none;
-    } */
-</style> -->
